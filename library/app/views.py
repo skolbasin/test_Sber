@@ -15,7 +15,7 @@ class LibraryList(ListCreateAPIView):
     serializer_class = LibrarySerializer
 
 
-@api_view()
+@api_view(['GET'])
 def facility_libraries_view(request: Request) -> Response:
     """
     Список всех государственных библиотек
