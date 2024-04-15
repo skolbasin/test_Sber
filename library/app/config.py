@@ -12,3 +12,16 @@ def validate_username(value):
         raise ValidationError(
             'Необходимо указать 2 слова, каждое слово должно начинаться с заглавной буквы.'
         )
+
+
+def validate_age(value):
+    """
+    Валидация на возраст
+    :param value:
+    :return: ValidationError
+    """
+    if value < 18 or value > 130:
+        raise ValidationError(
+            'Возраст должен быть от 18 до 130 лет'
+
+        )
