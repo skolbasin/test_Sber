@@ -50,7 +50,8 @@ make superuser
 
 ### Модель "Пользователь"
 
-![image](https://github.com/skolbasin/test_Sber/assets/111511890/85b123d1-338e-4f69-abf9-9a7ee66b6613)
+![image](https://github.com/skolbasin/test_Sber/assets/111511890/892ff152-cc46-478a-8992-7653afe4928c)
+
 
 Примечание: составлена валидация для поля "Фамилия Имя"(находится в config.py), для создания пользователя загружать фото не обязательно
 
