@@ -68,7 +68,7 @@ DRF дает возможность при внесении модели в API,
 ![image](https://github.com/skolbasin/test_Sber/assets/111511890/5b726e15-7743-4b62-a46c-de76feff8521)
 
 Также добавлены :
-- API на получение пользователей старшне n-возрпаста. Возраст передается через query-параметры(GET)
+- API на получение пользователей старшне n-возраста. Возраст передается через query-параметры(GET)
 ![image](https://github.com/skolbasin/test_Sber/assets/111511890/06a22d8b-38d0-49dd-aaf5-cc55071c8426)
 - API на получение только государственных библиотек(GET) 
 ![image](https://github.com/skolbasin/test_Sber/assets/111511890/6be5b02d-fd5b-4f10-a60a-4ab555e377ee)
