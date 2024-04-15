@@ -2,7 +2,7 @@
 
 Условие: Создать три модели: Библиотека, Пользователь, Книга. Требуется придумать по два запроса с использованием: select_related, prefetch, prefetch_related. Все запросы обернуть в API.
 
-Как запустить проект:
+## Как запустить проект:
 1. Клонировать репозиторий:
 ```
 git clone https://github.com/skolbasin/test_Sber.git
@@ -40,7 +40,7 @@ make superuser
 6. После запуска сервера перейдите по адресу http://localhost:8000/admin и введи логин и пароль от суперюзера
 
 ## О проекте:
-Задание было выполнено через Django и DRF
+Задание было выполнено через Django и DRF(для создания API)
 
 Сами модели расположены в приложении app в файле models.py и добавлены в админу с переводом на русский язык
 ![image](https://github.com/skolbasin/test_Sber/assets/111511890/d7829e1f-acd7-4928-8c7f-8e7c8c5b2794)
@@ -57,4 +57,15 @@ make superuser
 ### Модель "Книга" 
 
 ![image](https://github.com/skolbasin/test_Sber/assets/111511890/a898ec7a-6569-450d-a524-7a58bfada53c)
+
+API доступны по адресу: http://localhost:8000/api
+
+
+DRF дает возможность при внесении модели в API, совершать с ней все необходимые запросы(GET, POST, HEAD, OPTIONS)
+![image](https://github.com/skolbasin/test_Sber/assets/111511890/2fce2a61-ac1a-4d46-8397-766ec1a28956)
+![image](https://github.com/skolbasin/test_Sber/assets/111511890/b8995eac-65fc-49a2-8571-aebfefd36120)
+![image](https://github.com/skolbasin/test_Sber/assets/111511890/5b726e15-7743-4b62-a46c-de76feff8521)
+
+
+
 
