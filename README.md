@@ -59,13 +59,24 @@ make superuser
 
 ![image](https://github.com/skolbasin/test_Sber/assets/111511890/a898ec7a-6569-450d-a524-7a58bfada53c)
 
-API доступны по адресу: http://localhost:8000/api
+API доступны по адресу: http://localhost:8000/api/{названиеapi}
 
 
 DRF дает возможность при внесении модели в API, совершать с ней все необходимые запросы(GET, POST, HEAD, OPTIONS)
 ![image](https://github.com/skolbasin/test_Sber/assets/111511890/2fce2a61-ac1a-4d46-8397-766ec1a28956)
 ![image](https://github.com/skolbasin/test_Sber/assets/111511890/b8995eac-65fc-49a2-8571-aebfefd36120)
 ![image](https://github.com/skolbasin/test_Sber/assets/111511890/5b726e15-7743-4b62-a46c-de76feff8521)
+
+Также добавлены :
+- API на получение пользователей старшне n-возрпаста. Возраст передается через query-параметры(GET)
+![image](https://github.com/skolbasin/test_Sber/assets/111511890/06a22d8b-38d0-49dd-aaf5-cc55071c8426)
+- API на получение только государственных библиотек(GET) 
+![image](https://github.com/skolbasin/test_Sber/assets/111511890/6be5b02d-fd5b-4f10-a60a-4ab555e377ee)
+- API на получение книг определенного издания. Название издания передается через форму(POST)
+![image](https://github.com/skolbasin/test_Sber/assets/111511890/3d446e9b-62de-4605-bdc9-98998a5742c3)
+
+
+
 
 
 
